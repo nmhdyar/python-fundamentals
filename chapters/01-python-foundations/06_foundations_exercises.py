@@ -2,6 +2,7 @@
 Chapter 01.6 — Foundations Practice
 
 Try each task yourself before reading the suggested solution.
+Type hints describe expected types; they do not validate or convert user input.
 """
 
 # Exercise 1: Personal profile
