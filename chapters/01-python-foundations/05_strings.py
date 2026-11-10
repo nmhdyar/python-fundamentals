@@ -10,7 +10,7 @@ Key ideas:
 """
 
 # Example 1: Indexing, slicing, and string length.
-language = "Python"
+language: str = "Python"
 
 print("First character:", language[0])
 print("Last character:", language[-1])
@@ -22,11 +22,11 @@ print("Length:", len(language))
 print("\n" + "-" * 40 + "\n")
 
 # Example 2: Clean and format user-provided text.
-raw_name = "   nImA mahdiYar   "
+raw_name: str = "   nImA mahdiYar   "
 
-clean_name = raw_name.strip()
-display_name = clean_name.title()
-username = clean_name.lower().replace(" ", "_")
+clean_name: str = raw_name.strip()
+display_name: str = clean_name.title()
+username: str = clean_name.lower().replace(" ", "_")
 
 print("Original:", repr(raw_name))
 print("Clean name:", display_name)
@@ -35,6 +35,6 @@ print("Starts with Nima:", display_name.startswith("Nima"))
 print("Contains a space:", " " in display_name)
 
 # Strings are immutable. This creates a new string; it does not edit the old one.
-message = "hello"
+message: str = "hello"
 message = message.upper()
 print(f"Updated message: {message}")
