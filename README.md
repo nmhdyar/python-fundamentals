@@ -8,52 +8,13 @@ A structured, hands-on journey through Python fundamentals, software development
 python-fundamentals/
 ├── chapters/
 │   ├── 01-python-foundations/
-│   │   ├── README.md
-│   │   └── lesson files
 │   └── 02-conditions-and-loops/
-│       ├── README.md
-│       └── lesson files
-├── PRACTICE.md
 ├── archive/
 │   └── early-exercises/
-├── README.md
-└── PROGRESS.md
+├── PRACTICE.md
+├── PROGRESS.md
+└── README.md
 ```
-
-## Type hints
-
-Python is dynamically typed, which means variable types are determined while the program runs. **Type hints** let you document the type you expect a variable, function parameter, or return value to have.
-
-### Variable annotations
-
-```python
-name: str = "Nima"
-age: int = 20
-height: float = 1.82
-is_learning: bool = True
-middle_name: str | None = None
-languages: list[str] = ["Python", "JavaScript"]
-```
-
-### Function annotations
-
-```python
-def calculate_total(price: float, quantity: int) -> float:
-    return price * quantity
-```
-
-The annotations before the parameter names describe expected argument types. The annotation after `->` describes the return type. Use `-> None` when a function does not return a meaningful value.
-
-### Important points
-
-- Type hints do **not** automatically convert values or enforce types at runtime.
-- `input()` still returns a `str`; convert it with `int()` or `float()` when needed.
-- Use `str | None` when a value may be a string or `None` (Python 3.10+).
-- For collections, specify their item types, such as `list[int]` or `dict[str, float]`.
-- Annotate the collection in a `for` loop; Python can infer the loop variable's type. Do not annotate the loop target directly.
-- Keep annotations accurate when a variable is reassigned.
-
-Type hints improve readability and editor/static-checker support. They are not a replacement for input validation or tests.
 
 ## Learning chapters
 
@@ -68,13 +29,67 @@ Type hints improve readability and editor/static-checker support. They are not a
 
 Use [PRACTICE.md](PRACTICE.md) for five English-language exercises per chapter. See [PROGRESS.md](PROGRESS.md) for the actual learning checkpoint. A chapter's presence in the repository does not automatically mean it has been mastered.
 
+## Type hints
+
+Python is dynamically typed: types belong to values, and a variable name can be assigned values of different types. **Type hints** (type annotations) document the type a variable, function parameter, or return value is expected to have.
+
+### Variable annotations
+
+```python
+name: str = "Nima"
+age: int = 20
+height: float = 1.82
+is_learning: bool = True
+middle_name: str | None = None
+scores: list[int] = [18, 20, 16]
+prices: dict[str, float] = {"coffee": 2.5}
+```
+
+The part after the colon is the annotation. Assignment still works normally.
+
+### Function annotations
+
+```python
+def calculate_total(price: float, quantity: int) -> float:
+    return price * quantity
+
+def show_message(message: str) -> None:
+    print(message)
+```
+
+Parameter annotations describe expected argument types. The annotation after `->` describes the return type. Use `-> None` when a function does not return a meaningful value.
+
+### Common types
+
+| Hint | Meaning |
+|---|---|
+| `int` | Integer |
+| `float` | Floating-point number |
+| `str` | Text |
+| `bool` | True or False |
+| `None` | No value |
+| `str | None` | A string or None |
+| `list[int]` | A list of integers |
+| `dict[str, float]` | String keys and float values |
+
+### Important rules
+
+1. Type hints do **not** convert values. `input()` still returns `str`; use `int()` or `float()` when numeric values are needed.
+2. Python does not enforce ordinary annotations at runtime. They primarily help readers, editors, and static type checkers.
+3. An annotation does not replace input validation.
+4. Keep annotations accurate when a variable is reassigned.
+5. In a `for` loop, annotate the collection; Python infers the loop variable's type. Do not annotate the loop target itself.
+6. The `X | None` syntax requires Python 3.10 or newer.
+
+Type hints improve clarity and tooling support; they are not a substitute for tests.
+
 ## Practice problems
 
-The root-level [PRACTICE.md](PRACTICE.md) contains five independent problem statements for Chapter 01 and five for Chapter 02. No solutions are included, so the file can be used for real practice.
+[PRACTICE.md](PRACTICE.md) contains five independent English-language problem statements for Chapter 01 and five for Chapter 02. Solutions are intentionally not included.
 
 ## Archived exercises
 
-The `archive/early-exercises/` directory preserves the original small exercises from the first stages of learning. They are kept as learning history, separate from the organized chapter material.
+The `archive/early-exercises/` directory preserves original exercises separately from the organized chapter material.
 
 ## Study approach
 
