@@ -7,7 +7,8 @@ A structured, hands-on journey through Python fundamentals, software development
 ```text
 python-fundamentals/
 ├── chapters/
-│   └── 01-python-foundations/
+│   ├── 01-python-foundations/
+│   └── 02-conditions-and-loops/
 │       ├── README.md
 │       ├── 01_variables_and_types.py
 │       ├── 02_input_output.py
@@ -32,7 +33,11 @@ python-fundamentals/
 | 05 — Modules and Debugging | Imports, standard library, debugging | Previously practiced |
 | 06 — Object-Oriented Programming | Classes, objects, methods, object state | In progress |
 
-See [PROGRESS.md](PROGRESS.md) for the actual learning checkpoint. A chapter's presence in the repository does not automatically mean it has been mastered.
+Use [PRACTICE.md](PRACTICE.md) for five English-language exercises per chapter. See [PROGRESS.md](PROGRESS.md) for the actual learning checkpoint. A chapter's presence in the repository does not automatically mean it has been mastered.
+
+## Practice problems
+
+The root-level [PRACTICE.md](PRACTICE.md) contains five independent problem statements for Chapter 01 and five for Chapter 02. No solutions are included, so the file can be used for real practice.
 
 ## Archived exercises
 

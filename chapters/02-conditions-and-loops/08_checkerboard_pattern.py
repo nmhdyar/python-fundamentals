@@ -1,12 +1,14 @@
 """
-Chapter 02.8 — Checkerboard Pattern with Nested Loops
+Chapter 02.8 — Conditional Output with Nested Loops
 
-The sum of the row and column indexes determines which positions
-contain a star. No delay is needed to display the pattern.
+Key ideas:
+- Each nested-loop iteration has a row and column index.
+- Indexes start at 0 when using range(number).
+- Combining indexes with modulo can create repeating patterns.
 """
 
-rows = int(input("Enter number of rows: "))
-columns = int(input("Enter number of columns: "))
+rows = 6
+columns = 8
 
 for row in range(rows):
     for column in range(columns):
@@ -15,3 +17,6 @@ for row in range(rows):
         else:
             print(" ", end=" ")
     print()
+
+# Try changing rows and columns.
+# Explain why neighboring cells alternate.

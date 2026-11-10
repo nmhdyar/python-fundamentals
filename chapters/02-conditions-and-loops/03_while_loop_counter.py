@@ -1,12 +1,29 @@
 """
-Chapter 02.3 — Counting with a while Loop
+Chapter 02.3 — while Loops
 
-A while loop repeats as long as its condition is True.
-Remember to update the counter so the loop can eventually stop.
+Key ideas:
+- A while loop repeats while its condition remains True.
+- Update the state used by the condition.
+- Make sure the loop has a reachable stopping condition.
 """
 
+# Example 1: Count from 1 to 5.
 count = 1
 
 while count <= 5:
     print("Count:", count)
     count += 1
+
+print("\n" + "-" * 40 + "\n")
+
+# Example 2: Repeat until the target is reached.
+target = 4
+guess = 0
+
+while guess != target:
+    guess += 1
+    print("Current guess:", guess)
+
+print("Target reached!")
+
+# If guess were never updated, this loop could run forever.
