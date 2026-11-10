@@ -26,7 +26,7 @@ python-fundamentals/
 | Chapter | Focus | Status |
 |---|---|---|
 | [01 — Python Foundations](chapters/01-python-foundations/) | Variables, data types, input/output, conversion, operators, strings | Organized |
-| 02 — Conditions and Loops | Conditions, loops, nested loops | Previously studied |
+| [02 — Conditions and Loops](chapters/02-conditions-and-loops/) | Conditions, loops, nested loops | Organized |
 | 03 — Data Structures | Lists, tuples, sets, dictionaries | Review and practice |
 | 04 — Functions | Functions, parameters, return values | Consolidation |
 | 05 — Modules and Debugging | Imports, standard library, debugging | Previously practiced |
