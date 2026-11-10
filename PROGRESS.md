@@ -12,7 +12,7 @@ This file tracks what has actually been covered in lessons. A topic is not marke
 
 | Chapter | Status | Notes |
 |---|---|---|
-| 01. Python foundations | ✅ Covered | Variables, basic data types, input/output, type inspection |
+| 01. Python foundations | ✅ Covered | Variables, basic data types, input/output, type inspection; the organized chapter now provides a fuller reference |
 | 02. Conditions and loops | ✅ Covered | `if/elif/else`, `for`, `while`, `range`, modulo, nested loops |
 | 03. Data structures | 🟡 Covered / review | Lists and dictionaries are familiar; keep practicing them in combined problems |
 | 04. Functions | 🟡 Covered / consolidate | Function definition, parameters, return values, and practical use need more fluency |
@@ -31,9 +31,10 @@ These topics should only be added to the completed list after they are taught an
 - More advanced OOP (inheritance, composition, polymorphism)
 - Automated testing
 
-## Working rule
+## Repository organization
 
-- Keep the original root-level exercises as the history of the first learning steps.
-- Put organized chapter material under `chapters/`.
+- Keep the repository root limited to navigation and project-level documentation.
+- Put organized, teachable material under `chapters/`.
+- Preserve original early exercises under `archive/early-exercises/`; do not delete learning history.
 - Add a topic to this tracker only after it has been covered in lessons.
 - Keep code examples runnable and use English filenames, identifiers, and commit messages.
