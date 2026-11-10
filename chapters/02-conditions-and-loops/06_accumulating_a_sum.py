@@ -5,6 +5,7 @@ Key ideas:
 - A counter tracks occurrences.
 - An accumulator stores a result updated repeatedly.
 - Initialize these variables before entering the loop.
+- Annotate integer counters and accumulators with int.
 """
 
 # Example 1: Calculate the sum from 1 through 100.
