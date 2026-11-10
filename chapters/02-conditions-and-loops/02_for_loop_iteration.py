@@ -8,7 +8,7 @@ Key ideas:
 """
 
 # Example 1: Iterate over a list.
-languages = ["Python", "JavaScript", "Java", "C++"]
+languages: list[str] = ["Python", "JavaScript", "Java", "C++"]
 
 for language in languages:
     print("I am learning:", language)
