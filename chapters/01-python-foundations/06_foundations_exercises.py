@@ -10,9 +10,9 @@ Try each task yourself before reading the suggested solution.
 
 print("EXERCISE 1 — PERSONAL PROFILE")
 
-name = input("Name: ").strip()
-age = int(input("Age: "))
-city = input("City: ").strip()
+name: str = input("Name: ").strip()
+age_text: str = input("Age: ")\nage: int = int(age_text)
+city: str = input("City: ").strip()
 
 print("\n" + "=" * 30)
 print(f"PROFILE: {name.title()}")
@@ -29,14 +29,14 @@ print("\n" + "-" * 40 + "\n")
 
 print("EXERCISE 2 — SHOPPING CALCULATOR")
 
-item_name = input("Item name: ").strip()
-item_price = float(input("Item price: "))
-item_quantity = int(input("Quantity: "))
+item_name: str = input("Item name: ").strip()
+item_price_text: str = input("Item price: ")\nitem_price: float = float(item_price_text)
+item_quantity_text: str = input("Quantity: ")\nitem_quantity: int = int(item_quantity_text)
 
-subtotal = item_price * item_quantity
-discount_rate = 0.10
-discount_amount = subtotal * discount_rate
-final_total = subtotal - discount_amount
+subtotal: float = item_price * item_quantity
+discount_rate: float = 0.10
+discount_amount: float = subtotal * discount_rate
+final_total: float = subtotal - discount_amount
 
 print("\n" + "=" * 30)
 print("SHOPPING SUMMARY")
