@@ -9,8 +9,8 @@ Key ideas:
 """
 
 # Example 1: Ask for information and display a formatted message.
-first_name = input("Enter your first name: ")
-city = input("Which city do you live in? ")
+first_name: str = input("Enter your first name: ")
+city: str = input("Which city do you live in? ")
 
 print(f"Hello, {first_name}!")
 print(f"Your city is {city}.")
@@ -18,15 +18,15 @@ print(f"Your city is {city}.")
 print("\n" + "-" * 40 + "\n")
 
 # Example 2: Format a small receipt.
-product = input("Product name: ")
-unit_price = input("Unit price: ")
-quantity = input("Quantity: ")
+product: str = input("Product name: ")
+unit_price_text: str = input("Unit price: ")
+quantity_text: str = input("Quantity: ")
 
 # Conversion is intentionally covered in the next lesson.
-unit_price = float(unit_price)
-quantity = int(quantity)
+unit_price: float = float(unit_price_text)
+quantity: int = int(quantity_text)
 
-total = unit_price * quantity
+total: float = unit_price * quantity
 
 print("\nRECEIPT")
 print("=" * 25)
