@@ -6,6 +6,7 @@ Key ideas:
 - or: at least one condition must be True.
 - not: reverses a boolean value.
 - Parentheses can make complex expressions easier to read.
+- Boolean expressions produce bool values.
 """
 
 # Example 1: Find even numbers greater than 10.
