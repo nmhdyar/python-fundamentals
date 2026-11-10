@@ -5,6 +5,7 @@ Key ideas:
 - Each nested-loop iteration has a row and column index.
 - Indexes start at 0 when using range(number).
 - Combining indexes with modulo can create repeating patterns.
+- Annotate dimensions as int; loop indexes are inferred as int.
 """
 
 rows: int = 6
