@@ -20,7 +20,10 @@ for row in range(rows):
 print("\n" + "-" * 40 + "\n")
 
 # Example 2: Print row and column coordinates.
-first_index: int = 1\nlast_index: int = 4\n\nfor row in range(first_index, last_index):
+first_index: int = 1
+last_index: int = 4
+
+for row in range(first_index, last_index):
     for column in range(first_index, last_index):
         print(f"({row}, {column})", end=" ")
     print()
