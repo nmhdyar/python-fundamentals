@@ -6,6 +6,7 @@ Key ideas:
 - The outer loop commonly controls rows.
 - The inner loop commonly controls columns.
 - The inner loop finishes before the outer loop advances.
+- range() produces integer row and column indexes.
 """
 
 # Example 1: Draw a rectangle.
