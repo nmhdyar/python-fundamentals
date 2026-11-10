@@ -9,7 +9,7 @@ Key ideas:
 """
 
 # Example 1: Print even numbers from 1 through 20.
-for number in range(1, 21):
+start: int = 1\nstop: int = 21\n\nfor number in range(start, stop):
     if number % 2 == 0:
         print("Even:", number)
 
