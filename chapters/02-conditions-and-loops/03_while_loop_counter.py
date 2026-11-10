@@ -8,7 +8,7 @@ Key ideas:
 """
 
 # Example 1: Count from 1 to 5.
-count = 1
+count: int = 1
 
 while count <= 5:
     print("Count:", count)
@@ -17,8 +17,8 @@ while count <= 5:
 print("\n" + "-" * 40 + "\n")
 
 # Example 2: Repeat until the target is reached.
-target = 4
-guess = 0
+target: int = 4
+guess: int = 0
 
 while guess != target:
     guess += 1
