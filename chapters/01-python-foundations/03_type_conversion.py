@@ -9,24 +9,24 @@ Key ideas:
 """
 
 # Example 1: Convert user input before doing arithmetic.
-age_text = input("Enter your age: ")
-age = int(age_text)
+age_text: str = input("Enter your age: ")
+age: int = int(age_text)
 
-next_year_age = age + 1
+next_year_age: int = age + 1
 
 print(f"Next year, you will be {next_year_age}.")
 
-height_text = input("Enter your height in meters (e.g. 1.82): ")
-height = float(height_text)
+height_text: str = input("Enter your height in meters (e.g. 1.82): ")
+height: float = float(height_text)
 
 print(f"Your height is {height:.2f} meters.")
 
 print("\n" + "-" * 40 + "\n")
 
 # Example 2: Convert values and understand boolean conversion.
-score = 87.9
-whole_score = int(score)  # int() removes the decimal part; it does not round.
-score_text = str(score)
+score: float = 87.9
+whole_score: int = int(score)  # int() removes the decimal part; it does not round.
+score_text: str = str(score)
 
 print("Original:", score, type(score))
 print("As integer:", whole_score, type(whole_score))
