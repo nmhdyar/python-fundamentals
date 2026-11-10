@@ -6,6 +6,7 @@ Key ideas:
 - number % 2 == 0 means the number is even.
 - number % 2 != 0 means the number is odd.
 - A condition inside a loop filters which items are processed.
+- range() produces integers, so the loop variable is inferred as int.
 """
 
 # Example 1: Print even numbers from 1 through 20.
