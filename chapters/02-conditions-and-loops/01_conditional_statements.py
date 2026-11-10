@@ -9,7 +9,7 @@ Key ideas:
 """
 
 # Example 1: Classify an age.
-age = 20
+age: int = 20
 
 if age < 0:
     print("Invalid age.")
@@ -23,7 +23,7 @@ else:
 print("\n" + "-" * 40 + "\n")
 
 # Example 2: Validate a score and assign a result.
-score = 87
+score: int = 87
 
 if not 0 <= score <= 100:
     print("Invalid score.")
