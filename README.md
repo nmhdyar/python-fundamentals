@@ -68,7 +68,7 @@ Parameter annotations describe expected argument types. The annotation after `->
 | `str` | Text |
 | `bool` | True or False |
 | `None` | No value |
-| `str | None` | A string or None |
+| `str \| None` | A string or None |
 | `list[int]` | A list of integers |
 | `dict[str, float]` | String keys and float values |
 
