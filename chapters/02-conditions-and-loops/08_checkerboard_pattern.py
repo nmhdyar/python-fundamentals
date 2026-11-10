@@ -7,8 +7,8 @@ Key ideas:
 - Combining indexes with modulo can create repeating patterns.
 """
 
-rows = 6
-columns = 8
+rows: int = 6
+columns: int = 8
 
 for row in range(rows):
     for column in range(columns):
