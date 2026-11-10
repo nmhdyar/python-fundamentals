@@ -11,7 +11,8 @@ Try each task yourself before reading the suggested solution.
 print("EXERCISE 1 — PERSONAL PROFILE")
 
 name: str = input("Name: ").strip()
-age_text: str = input("Age: ")\nage: int = int(age_text)
+age_text: str = input("Age: ")
+age: int = int(age_text)
 city: str = input("City: ").strip()
 
 print("\n" + "=" * 30)
@@ -30,8 +31,10 @@ print("\n" + "-" * 40 + "\n")
 print("EXERCISE 2 — SHOPPING CALCULATOR")
 
 item_name: str = input("Item name: ").strip()
-item_price_text: str = input("Item price: ")\nitem_price: float = float(item_price_text)
-item_quantity_text: str = input("Quantity: ")\nitem_quantity: int = int(item_quantity_text)
+item_price_text: str = input("Item price: ")
+item_price: float = float(item_price_text)
+item_quantity_text: str = input("Quantity: ")
+item_quantity: int = int(item_quantity_text)
 
 subtotal: float = item_price * item_quantity
 discount_rate: float = 0.10
