@@ -9,11 +9,11 @@ Key ideas:
 """
 
 # Example 1: Create variables and inspect their types.
-student_name = "Nima"
-student_age = 20
-student_height = 182.5
-is_learning_python = True
-middle_name = None
+student_name: str = "Nima"
+student_age: int = 20
+student_height: float = 182.5
+is_learning_python: bool = True
+middle_name: str | None = None
 
 print("Student:", student_name)
 print("Age:", student_age)
@@ -29,12 +29,12 @@ print(type(middle_name))        # <class 'NoneType'>
 print("\n" + "-" * 40 + "\n")
 
 # Example 2: Variables can be updated and reassigned.
-product_name = "Keyboard"
-price = 45.90
-quantity = 3
-in_stock = True
+product_name: str = "Keyboard"
+price: float = 45.90
+quantity: int = 3
+in_stock: bool = True
 
-total_price = price * quantity
+total_price: float = price * quantity
 
 print(f"Product: {product_name}")
 print(f"Quantity: {quantity}")
