@@ -8,14 +8,12 @@ A structured, hands-on journey through Python fundamentals, software development
 python-fundamentals/
 ├── chapters/
 │   ├── 01-python-foundations/
+│   │   ├── README.md
+│   │   └── lesson files
 │   └── 02-conditions-and-loops/
 │       ├── README.md
-│       ├── 01_variables_and_types.py
-│       ├── 02_input_output.py
-│       ├── 03_type_conversion.py
-│       ├── 04_operators.py
-│       ├── 05_strings.py
-│       └── 06_foundations_exercises.py
+│       └── lesson files
+├── PRACTICE.md
 ├── archive/
 │   └── early-exercises/
 ├── README.md
