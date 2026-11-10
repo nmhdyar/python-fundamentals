@@ -22,6 +22,41 @@ python-fundamentals/
 └── PROGRESS.md
 ```
 
+## Type hints
+
+Python is dynamically typed, which means variable types are determined while the program runs. **Type hints** let you document the type you expect a variable, function parameter, or return value to have.
+
+### Variable annotations
+
+```python
+name: str = "Nima"
+age: int = 20
+height: float = 1.82
+is_learning: bool = True
+middle_name: str | None = None
+languages: list[str] = ["Python", "JavaScript"]
+```
+
+### Function annotations
+
+```python
+def calculate_total(price: float, quantity: int) -> float:
+    return price * quantity
+```
+
+The annotations before the parameter names describe expected argument types. The annotation after `->` describes the return type. Use `-> None` when a function does not return a meaningful value.
+
+### Important points
+
+- Type hints do **not** automatically convert values or enforce types at runtime.
+- `input()` still returns a `str`; convert it with `int()` or `float()` when needed.
+- Use `str | None` when a value may be a string or `None` (Python 3.10+).
+- For collections, specify their item types, such as `list[int]` or `dict[str, float]`.
+- Annotate the collection in a `for` loop; Python can infer the loop variable's type. Do not annotate the loop target directly.
+- Keep annotations accurate when a variable is reassigned.
+
+Type hints improve readability and editor/static-checker support. They are not a replacement for input validation or tests.
+
 ## Learning chapters
 
 | Chapter | Focus | Status |
