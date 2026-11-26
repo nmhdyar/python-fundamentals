@@ -47,7 +47,7 @@ Complete CH11-EX01, CH11-EX02, CH11-EX03, CH11-EX04, CH11-EX05 in [PRACTICE.md](
 
 **Chapter project:** Refactor a single-file inventory script into a package with configuration, logging, tests, and a documented entry point.
 
-## 8. Chapter recap
+## 8. Recap
 Review the lesson list and explain the key idea of each lesson in your own words. Re-run the examples after changing their data or assumptions.
 
 ## 9. Self-check
