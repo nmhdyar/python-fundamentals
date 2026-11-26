@@ -46,7 +46,7 @@ Complete CH06-EX01, CH06-EX02, CH06-EX03, CH06-EX04, CH06-EX05 in [PRACTICE.md](
 
 **Chapter project:** Build a library system with Book, Member, and Library objects; keep responsibilities small and explicit.
 
-## 8. Chapter recap
+## 8. Recap
 Review the lesson list and explain the key idea of each lesson in your own words. Re-run the examples after changing their data or assumptions.
 
 ## 9. Self-check
