@@ -59,8 +59,8 @@ def main() -> None:
                 )
                 if result.returncode != 0:
                     fail(
-                        f"Script failed: {script.relative_to(ROOT)}\\n"
-                        f"stdout:\\n{result.stdout}\\nstderr:\\n{result.stderr}"
+                        f"Script failed: {script.relative_to(ROOT)}\n"
+                        f"stdout:\n{result.stdout}\nstderr:\n{result.stderr}"
                     )
                 checked += 1
 
@@ -68,8 +68,8 @@ def main() -> None:
     practice_fa = (ROOT / "persian" / "PRACTICE.md").read_text(encoding="utf-8")
     for chapter_number in (3, 4, 5):
         prefix = f"CH{chapter_number:02d}-EX"
-        ids_en = sorted(set(re.findall(rf"\\b{prefix}\\d{{2}}\\b", practice_en)))
-        ids_fa = sorted(set(re.findall(rf"\\b{prefix}\\d{{2}}\\b", practice_fa)))
+        ids_en = sorted(set(re.findall(rf"\b{prefix}\d{{2}}\b", practice_en)))
+        ids_fa = sorted(set(re.findall(rf"\b{prefix}\d{{2}}\b", practice_fa)))
         if ids_en != ids_fa or len(ids_en) != 5:
             fail(f"Exercise IDs differ or are incomplete for chapter {chapter_number}: "
                  f"EN={ids_en}, FA={ids_fa}")
