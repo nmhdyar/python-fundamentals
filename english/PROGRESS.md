@@ -1,29 +1,20 @@
 # Python Fundamentals — Learning Checkpoint
 
-This tracker is for the learner to maintain. A chapter being present in the repository does not automatically mean it has been personally mastered.
+This tracker separates repository availability from personal mastery. Mark a topic complete only after studying and practising it.
 
-## Current note
-The learner has reported completing their Python studies. Use this file for optional review, practice, and repository maintenance rather than treating it as an unfinished beginner course.
-
-## Verification status
-Chapters 03–05 have been verified in both language editions. The repository quality workflow compiles and executes all lesson scripts in these chapters, checks paired filenames, and confirms five matching practice IDs per chapter. Personal review remains learner-managed.
-
-## Curriculum availability
-| Chapter | Repository content | Personal review |
+## Curriculum status
+| Chapters | Focus | Repository status |
 |---|---|---|
-| 01. Python Foundations | Complete | Update when revisiting |
-| 02. Conditions and Loops | Complete | Update when revisiting |
-| 03. Data Structures | Complete | Update when revisiting |
-| 04. Functions | Complete | Update when revisiting |
-| 05. Modules, Exceptions, and Debugging | Complete | Update when revisiting |
+| 01–05 | Foundations | Existing paired curriculum |
+| 02 | Loop control additions | Paired lessons for break and continue |
+| 06–08 | Intermediate Python | Paired chapter drafts and runnable examples |
+| 09–11 | Advanced Python | Paired chapter drafts and runnable examples |
 
-## Suggested review checklist
-- [ ] Revisit tuples, sets, and comprehensions.
-- [ ] Practise functions with `*args`, `**kwargs`, and recursion.
-- [ ] Review exception handling and custom exceptions.
-- [ ] Build a small multi-module program in a virtual environment.
+## Personal review
+- [ ] Review loop control and useful built-ins: enumerate, zip, any, all.
+- [ ] Practise OOP, file persistence, and automated testing.
+- [ ] Practise iterators, generators, decorators, and context managers.
+- [ ] Build and test a multi-module package.
 
-## Maintenance rules
-- Mark personal topics complete only after practising them.
-- Keep English and Persian exercise IDs aligned.
-- Keep the historical exercises under `archive/`; do not mix them into the main chapter sequence.
+## Publishing rule
+Chapters 06–11 are draft content on a review branch until their examples, paired translations, exercise IDs, and quality checks are reviewed. Do not interpret repository presence as personal completion.
