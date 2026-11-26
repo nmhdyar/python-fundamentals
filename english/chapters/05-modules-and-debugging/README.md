@@ -1,6 +1,6 @@
 # Chapter 05 — Modules, Exceptions, and Debugging
 
-> Status: In review — paired English/Persian editions
+> Status: Verified — paired English/Persian editions
 > Persian edition: [فصل ۰۵ — ماژول‌ها، استثناها و اشکال‌زدایی](../../../persian/chapters/05-modules-and-debugging/README.md)
 
 ## 1. Overview
