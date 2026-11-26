@@ -66,8 +66,8 @@ def main() -> None:
     practice_fa = (ROOT / "persian" / "PRACTICE.md").read_text(encoding="utf-8")
     for number in range(2, 12):
         prefix = f"CH{number:02d}-EX"
-        ids_en = sorted(set(re.findall(rf"\\b{prefix}\\d{{2}}\\b", practice_en)))
-        ids_fa = sorted(set(re.findall(rf"\\b{prefix}\\d{{2}}\\b", practice_fa)))
+        ids_en = sorted(set(re.findall(rf"\b{prefix}\d{{2}}\b", practice_en)))
+        ids_fa = sorted(set(re.findall(rf"\b{prefix}\d{{2}}\b", practice_fa)))
         if ids_en != ids_fa or len(ids_en) != 5:
             fail(f"Exercise IDs differ or are incomplete for chapter {number}: EN={ids_en}, FA={ids_fa}")
     print(f"PASS: {checked} Python lesson scripts compiled and executed.")
