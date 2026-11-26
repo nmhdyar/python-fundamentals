@@ -46,7 +46,7 @@ Complete CH07-EX01, CH07-EX02, CH07-EX03, CH07-EX04, CH07-EX05 in [PRACTICE.md](
 
 **Chapter project:** Create a contact manager that loads and saves contacts as JSON, validates records, and exports a CSV report.
 
-## 8. Chapter recap
+## 8. Recap
 Review the lesson list and explain the key idea of each lesson in your own words. Re-run the examples after changing their data or assumptions.
 
 ## 9. Self-check
