@@ -1,6 +1,6 @@
 # Chapter 03 — Data Structures
 
-> Status: Draft — paired English/Persian editions
+> Status: Verified — paired English/Persian editions
 > Persian edition: [فصل ۰۳ — ساختارهای داده](../../../persian/chapters/03-data-structures/README.md)
 
 ## 1. Overview

@@ -1,6 +1,6 @@
 # Chapter 04 — Functions
 
-> Status: Draft — paired English/Persian editions
+> Status: Verified — paired English/Persian editions
 > Persian edition: [فصل ۰۴ — توابع](../../../persian/chapters/04-functions/README.md)
 
 ## 1. Overview
