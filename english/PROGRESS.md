@@ -5,7 +5,10 @@ This tracker is for the learner to maintain. A chapter being present in the repo
 ## Current note
 The learner has reported completing their Python studies. Use this file for optional review, practice, and repository maintenance rather than treating it as an unfinished beginner course.
 
-## Verification status\nChapters 03–05 have been verified in both language editions. The repository quality workflow compiles and executes all lesson scripts in these chapters, checks paired filenames, and confirms five matching practice IDs per chapter. Personal review remains learner-managed.\n\n## Curriculum availability
+## Verification status
+Chapters 03–05 have been verified in both language editions. The repository quality workflow compiles and executes all lesson scripts in these chapters, checks paired filenames, and confirms five matching practice IDs per chapter. Personal review remains learner-managed.
+
+## Curriculum availability
 | Chapter | Repository content | Personal review |
 |---|---|---|
 | 01. Python Foundations | Complete | Update when revisiting |
