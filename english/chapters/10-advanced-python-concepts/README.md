@@ -46,7 +46,7 @@ Complete CH10-EX01, CH10-EX02, CH10-EX03, CH10-EX04, CH10-EX05 in [PRACTICE.md](
 
 **Chapter project:** Build a small timing decorator, a safe temporary setting context manager, and a dataclass model.
 
-## 8. Chapter recap
+## 8. Recap
 Review the lesson list and explain the key idea of each lesson in your own words. Re-run the examples after changing their data or assumptions.
 
 ## 9. Self-check
