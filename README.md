@@ -1,6 +1,8 @@
 # Python Fundamentals 🐍
 
-A practical Python curriculum with synchronized English and Persian editions.\n\n> **Release status: Verified** — chapters 01–05 are complete in both languages. Chapters 03–05 pass automated compilation, execution, filename-pairing, and exercise-ID checks.
+A practical Python curriculum with synchronized English and Persian editions.
+
+> **Release status: Verified** — chapters 01–05 are complete in both languages. Chapters 03–05 pass automated compilation, execution, filename-pairing, and exercise-ID checks.
 
 ## Choose your language
 - [English curriculum](english/README.md)
