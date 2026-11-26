@@ -42,3 +42,48 @@ Solve each problem independently after studying its matching chapter. Exercise I
 - [ ] Names are clear and follow `snake_case`.
 - [ ] Normal and edge-case inputs have been tested.
 - [ ] I can explain the code without copying it.
+
+
+## Chapters 06–11 — Intermediate and Advanced Python
+
+### Chapter 06 — Object-Oriented Programming
+- **CH06-EX01 — Inventory Product Model:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH06-EX02 — Bank Account with Validation:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH06-EX03 — Employee Inheritance:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH06-EX04 — Polymorphic Payment Methods:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH06-EX05 — Library Composition Project:** Design and implement the solution, validate inputs, and test at least one edge case.
+
+### Chapter 07 — File Handling & Data Persistence
+- **CH07-EX01 — Read and Count a Text File:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH07-EX02 — Append a Daily Log:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH07-EX03 — JSON Contact Storage:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH07-EX04 — CSV Sales Summary:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH07-EX05 — Persistent Expense Tracker:** Design and implement the solution, validate inputs, and test at least one edge case.
+
+### Chapter 08 — Testing & Code Quality
+- **CH08-EX01 — Test a Temperature Converter:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH08-EX02 — Validate Boundary Inputs:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH08-EX03 — Unit Tests for Shopping Cart:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH08-EX04 — Refactor a Long Function:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH08-EX05 — Expense Calculator Test Suite:** Design and implement the solution, validate inputs, and test at least one edge case.
+
+### Chapter 09 — Iterators & Generators
+- **CH09-EX01 — Build a Countdown Iterator:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH09-EX02 — Generate Prime Numbers:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH09-EX03 — Stream Large CSV Rows:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH09-EX04 — Generator Pipeline:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH09-EX05 — Transaction Filter Project:** Design and implement the solution, validate inputs, and test at least one edge case.
+
+### Chapter 10 — Advanced Python Concepts
+- **CH10-EX01 — Closure-Based Counter:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH10-EX02 — Timing Decorator:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH10-EX03 — Parameterized Retry Decorator:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH10-EX04 — Temporary Settings Context Manager:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH10-EX05 — Dataclass Validation Model:** Design and implement the solution, validate inputs, and test at least one edge case.
+
+### Chapter 11 — Project Structure & Packaging
+- **CH11-EX01 — Split a Script into Modules:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH11-EX02 — Configure a Virtual Environment:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH11-EX03 — Add Structured Logging:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH11-EX04 — Read Environment Configuration:** Design and implement the solution, validate inputs, and test at least one edge case.
+- **CH11-EX05 — Package a Tested CLI Project:** Design and implement the solution, validate inputs, and test at least one edge case.
