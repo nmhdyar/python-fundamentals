@@ -33,7 +33,7 @@ Chapter 01: variables, types, input/output, conversion, operators, and strings.
 ## 7. Practice exercises
 Complete `CH02-EX01` through `CH02-EX05` in [PRACTICE.md](../../PRACTICE.md).
 
-## 8. Chapter recap
+## 8. Recap
 Conditions select branches; loops repeat work; `break` ends a loop and `continue` skips one iteration.
 
 ## 9. Self-check
