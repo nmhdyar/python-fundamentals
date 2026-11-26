@@ -46,7 +46,7 @@ Complete CH09-EX01, CH09-EX02, CH09-EX03, CH09-EX04, CH09-EX05 in [PRACTICE.md](
 
 **Chapter project:** Build a generator that streams cleaned transaction records and yields only records matching a filter.
 
-## 8. Chapter recap
+## 8. Recap
 Review the lesson list and explain the key idea of each lesson in your own words. Re-run the examples after changing their data or assumptions.
 
 ## 9. Self-check
