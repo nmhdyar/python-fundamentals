@@ -1,44 +1,41 @@
 # Python Fundamentals 🐍
 
-A bilingual Python learning project for Persian-speaking and international learners.
+A practical Python curriculum with synchronized English and Persian editions.
 
 ## Choose your language
+- [English curriculum](english/README.md)
+- [مسیر آموزشی فارسی](persian/README.md)
 
-- **[English version](english/README.md)** — lessons, examples, exercises, and documentation in English.
-- **[نسخه فارسی](persian/README.md)** — درس‌ها، مثال‌ها، تمرین‌ها و مستندات به زبان فارسی.
+## Curriculum map
+| Chapter | Topic | Main concepts |
+|---|---|---|
+| [01](english/chapters/01-python-foundations/) | Python Foundations | Variables, types, input/output, conversion, operators, strings |
+| [02](english/chapters/02-conditions-and-loops/) | Conditions and Loops | Branching, iteration, counters, accumulators, nested loops |
+| [03](english/chapters/03-data-structures/) | Data Structures | Lists, tuples, sets, dictionaries, comprehensions |
+| [04](english/chapters/04-functions/) | Functions | Parameters, return values, flexible arguments, scope, recursion |
+| [05](english/chapters/05-modules-and-debugging/) | Modules, Exceptions, and Debugging | Imports, standard library, exceptions, debugging, environments |
 
-Both learning tracks follow the same chapter structure, learning objectives, examples, and exercise IDs. Explanations and learner-facing text are localized, while Python logic and identifiers remain aligned.
-
-## Bilingual teaching standard
-
-This project uses a shared standard so neither language edition falls behind:
-
-- [Bilingual Teaching Standard — English](docs/TEACHING_STANDARD.md)
-- [استاندارد آموزش دوزبانه — فارسی](docs/TEACHING_STANDARD.fa.md)
-- [English chapter template](docs/templates/CHAPTER_TEMPLATE.en.md)
-- [قالب فارسی فصل](docs/templates/CHAPTER_TEMPLATE.fa.md)
-
-A chapter is not considered published until both language editions are complete, aligned, and reviewed.
-
-## Repository structure
-
+## Repository layout
 ```text
-python-fundamentals/
-├── docs/
-│   ├── templates/
-│   ├── TEACHING_STANDARD.md
-│   └── TEACHING_STANDARD.fa.md
+.
+├── docs/                 # Bilingual teaching standard and chapter templates
 ├── english/
-│   ├── chapters/
-│   ├── archive/
-│   ├── PRACTICE.md
-│   ├── PROGRESS.md
-│   └── README.md
-├── persian/
-│   ├── chapters/
-│   ├── archive/
-│   ├── PRACTICE.md
-│   ├── PROGRESS.md
-│   └── README.md
-└── README.md
+│   ├── chapters/         # English lessons, chapter 01 through 05
+│   ├── archive/          # Historical early exercises; not part of the main path
+│   ├── PRACTICE.md       # Exercises CH01-EX01 through CH05-EX05
+│   ├── PROGRESS.md       # Learner-maintained checkpoint
+│   └── README.md         # English navigation
+├── persian/              # Same structure and content coverage in Persian
+└── README.md             # Project entry point
 ```
+
+## How to use this repository
+1. Choose English or Persian.
+2. Follow chapters 01 to 05 in order; each chapter links to its paired translation.
+3. Read a chapter README before opening its numbered Python lessons.
+4. Run each lesson, change the examples, and predict the output.
+5. Solve the matching exercise IDs in `PRACTICE.md`.
+6. Update `PROGRESS.md` only after personally studying and practising a topic.
+
+## Bilingual quality rule
+Both editions must share chapter order, learning objectives, code logic, filenames, exercise IDs, and difficulty. Explanations and comments may be localized. See the [English teaching standard](docs/TEACHING_STANDARD.md) and [استاندارد فارسی](docs/TEACHING_STANDARD.fa.md).

@@ -1,40 +1,26 @@
-# Python Fundamentals — Learning Progress
+# Python Fundamentals — Learning Checkpoint
 
-This file tracks what has actually been covered in lessons. A topic is not marked complete just because an example exists.
+This tracker is for the learner to maintain. A chapter being present in the repository does not automatically mean it has been personally mastered.
 
-## Current checkpoint
+## Current note
+The learner has reported completing their Python studies. Use this file for optional review, practice, and repository maintenance rather than treating it as an unfinished beginner course.
 
-**Reached:** Object-Oriented Programming (OOP) — classes, objects, constructors, attributes, methods, and changing an existing object's state.
-
-**Current focus:** Finish practical OOP exercises, especially the Phone inventory exercise.
-
-## Chapter status
-
-| Chapter | Status | Notes |
+## Curriculum availability
+| Chapter | Repository content | Personal review |
 |---|---|---|
-| 01. Python foundations | ✅ Covered | Variables, basic data types, input/output, type inspection; the organized chapter now provides a fuller reference |
-| 02. Conditions and loops | ✅ Covered | `if/elif/else`, `for`, `while`, `range`, modulo, nested loops |
-| 03. Data structures | 🟡 Covered / review | Lists and dictionaries are familiar; keep practicing them in combined problems |
-| 04. Functions | 🟡 Covered / consolidate | Function definition, parameters, return values, and practical use need more fluency |
-| 05. Modules and debugging | ✅ Practiced | Imports, using modules, reading errors, and debugging workflow |
-| 06. Object-Oriented Programming | 🟡 In progress | Classes, objects, `__init__`, `self`, attributes, methods, and object state |
+| 01. Python Foundations | Complete | Update when revisiting |
+| 02. Conditions and Loops | Complete | Update when revisiting |
+| 03. Data Structures | Complete | Update when revisiting |
+| 04. Functions | Complete | Update when revisiting |
+| 05. Modules, Exceptions, and Debugging | Complete | Update when revisiting |
 
-## Not marked complete yet
+## Suggested review checklist
+- [ ] Revisit tuples, sets, and comprehensions.
+- [ ] Practise functions with `*args`, `**kwargs`, and recursion.
+- [ ] Review exception handling and custom exceptions.
+- [ ] Build a small multi-module program in a virtual environment.
 
-These topics should only be added to the completed list after they are taught and practiced:
-
-- Tuples and sets (confirm/review before marking complete)
-- List/dictionary comprehensions
-- Advanced function features
-- Exceptions in depth
-- File handling and working with JSON/CSV
-- More advanced OOP (inheritance, composition, polymorphism)
-- Automated testing
-
-## Repository organization
-
-- Keep the repository root limited to navigation and project-level documentation.
-- Put organized, teachable material under `chapters/`.
-- Preserve original early exercises under `archive/early-exercises/`; do not delete learning history.
-- Add a topic to this tracker only after it has been covered in lessons.
-- Keep code examples runnable and use English filenames, identifiers, and commit messages.
+## Maintenance rules
+- Mark personal topics complete only after practising them.
+- Keep English and Persian exercise IDs aligned.
+- Keep the historical exercises under `archive/`; do not mix them into the main chapter sequence.

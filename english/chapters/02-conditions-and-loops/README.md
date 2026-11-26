@@ -1,20 +1,23 @@
 # Chapter 02 — Conditions and Loops
 
-This chapter teaches how a program makes decisions and repeats work. These ideas are the foundation of almost every useful program.
+> Status: Paired draft
+> Persian edition: [فصل ۰۲ — شرط‌ها و حلقه‌ها](../../../persian/chapters/02-conditions-and-loops/README.md)
 
-## Learning objectives
+## 1. Overview
+This chapter explains how programs choose between alternatives and repeat actions. Conditions and loops let a program respond to data instead of following only a fixed sequence.
 
-By the end of this chapter, you should be able to:
+## 2. Learning objectives
+- Control branches with `if`, `elif`, and `else`.
+- Combine conditions with `and`, `or`, and `not`.
+- Iterate with `for` and `range()`.
+- Use `while` with a clear stopping condition.
+- Build counters, accumulators, and filters.
+- Use nested loops for simple patterns and grids.
 
-- Control program flow with `if`, `elif`, and `else`.
-- Compare values and combine conditions with `and`, `or`, and `not`.
-- Iterate over sequences and numeric ranges with `for`.
-- Repeat work with `while` and explain its stopping condition.
-- Use counters, accumulators, and the modulo operator.
-- Build nested loops to produce simple text patterns.
+## 3. Prerequisites
+Chapter 01: variables, data types, input/output, conversion, operators, and strings.
 
-## Lessons
-
+## 4. Lessons
 | File | Topics |
 |---|---|
 | [01 — Conditional Statements](01_conditional_statements.py) | `if`, `elif`, `else`, comparison, validation |
@@ -26,38 +29,34 @@ By the end of this chapter, you should be able to:
 | [07 — Nested Loop Rectangle](07_nested_loop_rectangle.py) | Nested loops, rows, columns |
 | [08 — Checkerboard Pattern](08_checkerboard_pattern.py) | Nested loops, indexes, conditional output |
 
-## Important concepts
+## 5. Worked examples
+Examples cover age-based decisions, iterating over values, retry counters, filtering even numbers, running totals, and printing rectangular patterns.
 
-### Conditions
-A condition evaluates to `True` or `False`. Python checks branches from top to bottom and runs the first matching branch.
-
-### for vs. while
-- Use `for` when iterating over a known sequence or range.
-- Use `while` when repetition depends on a condition that may change during execution.
-
-### range()
-`range(start, stop, step)` generates integers. The `stop` value is excluded.
-
-### Counters and accumulators
-A **counter** tracks occurrences. An **accumulator** collects a result, such as a running sum. Initialize both before the loop.
-
-### Nested loops
-The inner loop completes all its iterations for each single iteration of the outer loop.
-
-## Common mistakes
-
-- Using `=` instead of `==` in a comparison.
-- Forgetting to update a `while` loop counter, causing an infinite loop.
+## 6. Common mistakes
+- Using `=` instead of `==` in a condition.
+- Forgetting to update a `while` loop variable.
 - Expecting `range()` to include its stop value.
-- Incorrect indentation around branches or nested loops.
-- Confusing row indexes with column indexes.
+- Misplacing indentation inside branches or nested loops.
+- Confusing a counter with an accumulator.
 
-## Study workflow
+## 7. Practice exercises
+Complete `CH02-EX01` through `CH02-EX05` in [PRACTICE.md](../../PRACTICE.md).
 
-1. Read the explanation at the top of each Python file.
-2. Predict the output before running the examples.
-3. Run the file, then change values and predict again.
-4. Trace at least one loop manually.
-5. Complete the five Chapter 02 problems in the repository's [practice file](../../PRACTICE.md) without copying lesson code.
+## 8. Chapter recap
+A condition selects a branch. A loop repeats a block. `for` is useful for iterating over an iterable, while `while` repeats as long as its condition remains true. Counters track occurrences; accumulators combine values.
 
-> Do not memorize loop syntax only. Learn to trace the state of each variable as the program runs.
+## 9. Self-check
+- [ ] I can trace which branch will execute.
+- [ ] I can choose between `for` and `while`.
+- [ ] I can explain why a loop stops.
+- [ ] I can trace a counter and an accumulator through a loop.
+
+## 10. Glossary
+| Term | Meaning |
+|---|---|
+| Condition | An expression evaluated as true or false |
+| Iteration | One repetition of a loop |
+| Iterable | An object that can provide its elements one by one |
+| Counter | A variable that tracks a number of occurrences |
+| Accumulator | A variable that collects a running result |
+| Nested loop | A loop placed inside another loop |
