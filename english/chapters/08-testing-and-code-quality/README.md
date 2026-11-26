@@ -47,7 +47,7 @@ Complete CH08-EX01, CH08-EX02, CH08-EX03, CH08-EX04, CH08-EX05 in [PRACTICE.md](
 
 **Chapter project:** Write a tested expense calculator with normal, boundary, and invalid-input cases; keep business logic separate from input/output.
 
-## 8. Chapter recap
+## 8. Recap
 Review the lesson list and explain the key idea of each lesson in your own words. Re-run the examples after changing their data or assumptions.
 
 ## 9. Self-check
