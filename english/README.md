@@ -10,6 +10,12 @@ A structured, hands-on Python curriculum. Follow the chapters in order; the Pers
 | 03 | [Data Structures](chapters/03-data-structures/) | Lists, tuples, sets, dictionaries, nested data, comprehensions |
 | 04 | [Functions](chapters/04-functions/) | Definitions, parameters, return, flexible arguments, scope, recursion |
 | 05 | [Modules, Exceptions, and Debugging](chapters/05-modules-and-debugging/) | Imports, standard library, exceptions, debugging, virtual environments |
+| 06 | [Object-Oriented Programming](chapters/06-object-oriented-programming/) | Classes, objects, composition, polymorphism |
+| 07 | [File Handling & Data Persistence](chapters/07-file-handling-and-data-persistence/) | Text files, paths, JSON, CSV, data persistence |
+| 08 | [Testing & Code Quality](chapters/08-testing-and-code-quality/) | unittest, testable design, code quality |
+| 09 | [Iterators & Generators](chapters/09-iterators-and-generators/) | Iteration protocol, generators, lazy streams |
+| 10 | [Advanced Python Concepts](chapters/10-advanced-python-concepts/) | Closures, decorators, context managers, dataclasses |
+| 11 | [Project Structure & Packaging](chapters/11-project-structure-and-packaging/) | Logging, configuration, package layout |
 
 ## Start here
 1. Read the chapter README.
