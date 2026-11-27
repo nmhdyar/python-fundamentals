@@ -10,6 +10,12 @@
 | ۰۳ | [ساختارهای داده](chapters/03-data-structures/) | لیست، تاپل، مجموعه، دیکشنری، داده تو در تو و کامپرهنشن |
 | ۰۴ | [توابع](chapters/04-functions/) | تعریف تابع، پارامتر، خروجی، آرگومان متغیر، محدوده و بازگشت |
 | ۰۵ | [ماژول‌ها، استثناها و اشکال‌زدایی](chapters/05-modules-and-debugging/) | import، کتابخانه استاندارد، استثنا، عیب‌یابی و محیط مجازی |
+| ۰۶ | [برنامه‌نویسی شی‌گرا](chapters/06-object-oriented-programming/) | کلاس‌ها، اشیا، ترکیب و چندریختی |
+| ۰۷ | [کار با فایل و ماندگاری داده](chapters/07-file-handling-and-data-persistence/) | فایل متنی، مسیرها، JSON و CSV، ماندگاری داده |
+| ۰۸ | [تست و کیفیت کد](chapters/08-testing-and-code-quality/) | unittest، طراحی قابل تست و کیفیت کد |
+| ۰۹ | [ایتراتورها و ژنراتورها](chapters/09-iterators-and-generators/) | پروتکل پیمایش، ژنراتورها و استریم تنبل |
+| ۱۰ | [مفاهیم پیشرفته پایتون](chapters/10-advanced-python-concepts/) | Closure، دکوراتور، Context Manager و Dataclass |
+| ۱۱ | [ساختار پروژه و بسته‌بندی](chapters/11-project-structure-and-packaging/) | Logging، پیکربندی و چیدمان پکیج |
 
 ## از کجا شروع کنم؟
 ۱. README فصل را بخوان.
