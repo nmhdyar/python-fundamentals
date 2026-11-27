@@ -2,7 +2,7 @@
 
 A practical Python curriculum with synchronized English and Persian editions.
 
-> **Release status: Verified** — chapters 01–05 are complete in both languages. Chapters 03–05 pass automated compilation, execution, filename-pairing, and exercise-ID checks.
+> **Release status: Verified** — chapters 01–11 are complete in both languages. Chapters 02–11 pass automated compilation, execution, filename-pairing, and exercise-ID checks (`tools/verify_curriculum.py`).
 
 ## Choose your language
 - [English curriculum](english/README.md)
@@ -16,15 +16,21 @@ A practical Python curriculum with synchronized English and Persian editions.
 | [03](english/chapters/03-data-structures/) | Data Structures | Lists, tuples, sets, dictionaries, comprehensions |
 | [04](english/chapters/04-functions/) | Functions | Parameters, return values, flexible arguments, scope, recursion |
 | [05](english/chapters/05-modules-and-debugging/) | Modules, Exceptions, and Debugging | Imports, standard library, exceptions, debugging, environments |
+| [06](english/chapters/06-object-oriented-programming/) | Object-Oriented Programming | Classes, objects, composition, polymorphism |
+| [07](english/chapters/07-file-handling-and-data-persistence/) | File Handling and Data Persistence | Text files, paths, JSON, CSV, data persistence |
+| [08](english/chapters/08-testing-and-code-quality/) | Testing and Code Quality | unittest, testable design, code quality |
+| [09](english/chapters/09-iterators-and-generators/) | Iterators and Generators | Iteration protocol, generators, lazy streams |
+| [10](english/chapters/10-advanced-python-concepts/) | Advanced Python Concepts | Closures, decorators, context managers, dataclasses |
+| [11](english/chapters/11-project-structure-and-packaging/) | Project Structure and Packaging | Logging, configuration, package layout |
 
 ## Repository layout
 ```text
 .
 ├── docs/                 # Bilingual teaching standard and chapter templates
 ├── english/
-│   ├── chapters/         # English lessons, chapter 01 through 05
+│   ├── chapters/         # English lessons, chapter 01 through 11
 │   ├── archive/          # Historical early exercises; not part of the main path
-│   ├── PRACTICE.md       # Exercises CH01-EX01 through CH05-EX05
+│   ├── PRACTICE.md       # Exercises CH01-EX01 through CH11-EX05
 │   ├── PROGRESS.md       # Learner-maintained checkpoint
 │   └── README.md         # English navigation
 ├── persian/              # Same structure and content coverage in Persian
@@ -33,7 +39,7 @@ A practical Python curriculum with synchronized English and Persian editions.
 
 ## How to use this repository
 1. Choose English or Persian.
-2. Follow chapters 01 to 05 in order; each chapter links to its paired translation.
+2. Follow chapters 01 to 11 in order; each chapter links to its paired translation.
 3. Read a chapter README before opening its numbered Python lessons.
 4. Run each lesson, change the examples, and predict the output.
 5. Solve the matching exercise IDs in `PRACTICE.md`.
